@@ -26,7 +26,7 @@ public class PhotoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_photo);
 
-        Toolbar toolbar = findViewById(R.id.tbMain);
+        Toolbar toolbar = findViewById(R.id.tbPhoto);
         setSupportActionBar(toolbar);
 
         ActionBar actionBar = getSupportActionBar();
